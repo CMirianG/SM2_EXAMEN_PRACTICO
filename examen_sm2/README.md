@@ -1,16 +1,26 @@
-# examen_sm2
 
-A new Flutter project.
+## 📌 Historias de Usuario Implementadas
 
-## Getting Started
+### 🔹 HU01 – Exportación de Reportes de Asistencia
 
-This project is a starting point for a Flutter application.
+- **Rol:** Administrador  
+- **Necesidad:** Exportar los registros de asistencia en formatos **CSV** o **Excel**  
+- **Propósito:** Analizarlos externamente y generar informes para la gestión de recursos humanos
 
-A few resources to get you started if this is your first Flutter project:
+**✅ Criterios de Aceptación:**
+1. El sistema debe generar reportes descargables en formato `.csv` y `.xlsx`.
+2. Debe permitir al usuario seleccionar qué columnas incluir en la exportación (por ejemplo: nombre, fecha, estado).
+3. Los datos exportados deben coincidir con los registros almacenados en el sistema.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔹 HU02 – Dashboard con Estadísticas de Asistencia
+
+- **Rol:** Administrador  
+- **Necesidad:** Visualizar estadísticas de asistencia desglosadas por empleado, sede y período de tiempo  
+- **Propósito:** Obtener información clave sobre la puntualidad y presencia del personal
+
+**✅ Criterios de Aceptación:**
+1. El dashboard debe mostrar estadísticas separadas por empleado, sede y fechas (día, semana, mes).
+2. La información debe representarse en **gráficos de barras y líneas**.
+3. Los datos deben actualizarse automáticamente en tiempo real o al recargar la vista.
